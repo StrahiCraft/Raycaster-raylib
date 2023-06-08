@@ -13,7 +13,7 @@ namespace Raycaster_raylib
         {
             Raylib.InitWindow(width, height, "Raycaster");
             Renderer renderer = new Renderer(pixelSize, width, height);
-            Player player = new Player(new System.Numerics.Vector2(2, 3), 0);
+            Player player = new Player(new System.Numerics.Vector2(3, 4), 0);
 
             while(!Raylib.WindowShouldClose())
             {
